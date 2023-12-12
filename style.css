@@ -1,3 +1,45 @@
+@font-face {
+    font-family: 'Hylia Serif Beta';
+    src: url('/font/HyliaSerifBeta-Regular.woff2') format('woff2'),
+        url('/font/HyliaSerifBeta-Regular.woff') format('woff'),
+        url('/font/HyliaSerifBeta-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Hylia Serif Beta';
+}
 .dblue {
     color: darkblue;
+}
+
+.video {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+}
+nav{
+    background-color:darkcyan;
+    font-size: 2rem;
+}
+
+.nomargin {
+    margin:0;
+}
+.nav li{
+    display: inline-block;
+}
+.namenav li{
+    padding: 0;
+    text-align: left;
 }
