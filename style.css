@@ -39,7 +39,11 @@ nav{
 .nav li{
     display: inline-block;
 }
-.namenav li{
-    padding: 0;
+.namenav{
+    padding: 5;
     text-align: left;
+    margin: 
+}
+body{
+    padding-left: 100;
 }
